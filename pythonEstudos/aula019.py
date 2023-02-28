@@ -1,0 +1,26 @@
+#Módulos úteis - math e datetime
+import math
+math.sqrt(9)
+print(math.sqrt(9))
+math.sin(45)
+print(math.sin(45))
+math.cos(45)
+print(math.cos(45))
+math.log(1000, 10)
+print(math.log(1000, 10))
+math.pi
+print(math.pi)
+print('----')
+import datetime
+print(dir(datetime))
+print(datetime.date.today())
+print(datetime.datetime.now())
+data = datetime.date(2022, 2, 16)
+print(data)
+print(data.day)
+print(data.month)
+print(data.year)
+horario = datetime.datetime(2022, 2, 16, 11, 24, 0)
+print(horario.hour)
+print(horario.minute)
+print(horario.second)
